@@ -8,7 +8,7 @@ with open('file_names.txt', 'w') as names:
     for entry in listOfFiles:
         for pattern in pattern_list:
             if fnmatch.fnmatch(entry, pattern):
-                names.writelines("Images\\" + entry)
+                names.writelines("Images\\" + entry+"\n")
 
 # SET PATH BELOW FOR WINDOWS ONLY
 # pytesseract.pytesseract.tesseract_cmd = r'<path to Tesseract-OCR\tesseract.exe>'

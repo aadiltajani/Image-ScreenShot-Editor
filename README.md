@@ -3,6 +3,8 @@
 
 A program which lets you edit image contents
 
+Remember- It uses OCR so it might give unexpected symbols when it doesn't recognises the text
+
 # How To Run:
 
   - After dealing with the dependencies, put the images you want to edit or convert in the Images folder.

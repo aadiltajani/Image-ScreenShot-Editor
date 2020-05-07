@@ -40,7 +40,7 @@ A program which lets you edit image contents
 
 
 - Windows:
-  Install the tesseract binary file provided in the repo.
+  Install the tesseract binary file from https://github.com/UB-Mannheim/tesseract/wiki.
   
   To access tesseract-OCR from any location you may have to add the directory where the tesseract-OCR binaries are located to the Path variables, probably C:\Program Files\Tesseract-OCR.
   

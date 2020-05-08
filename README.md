@@ -1,14 +1,15 @@
 # Image-ScreenShot-Editor
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/aadiltajani.svg?style=social&label=Follow%20%40tajani_aadil)](https://twitter.com/tajani_aadil)
 
-A program which lets you edit image contents
+A script which lets you edit image contents
 
 Remember- It uses OCR so it might give unexpected symbols when it doesn't recognises the text
 
 # How To Run:
   - `pip install -r requirements.txt`
-  - After dealing with the dependencies, put the document into the root directory as `input.docx`
+  - After dealing with the dependencies, put the document into the root directory as `input.docx` if you want to edit images  from doc file or put your image file in Images folder if you want to edit them directly.
   - `python EditorProgram.py`
+  - This will ask you the source of image (doc/image).
   - This will ask you if you want to make edits.
   - Finally, the edited content will be available in the fle `Changed_files.doc`.
   - Change the formatting as you like :)

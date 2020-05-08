@@ -40,6 +40,7 @@ with open('file_names.txt', 'w') as names:
         for pattern in pattern_list:
 
             if fnmatch.fnmatch(entry, pattern):
+<<<<<<< HEAD
 
                 if platform.system() == 'Windows':
 
@@ -49,6 +50,9 @@ with open('file_names.txt', 'w') as names:
 
                     names.write("Images/word/media/" + entry+"\n")
                
+=======
+                names.writelines("Images\\" + entry+"\n")
+>>>>>>> upstream/master
 
 # SET PATH BELOW FOR WINDOWS ONLY
 # pytesseract.pytesseract.tesseract_cmd = r'<path to Tesseract-OCR\tesseract.exe>'

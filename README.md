@@ -3,6 +3,8 @@
 
 A program which lets you edit image contents
 
+Remember- It uses OCR so it might give unexpected symbols when it doesn't recognises the text
+
 # How To Run:
   - `pip install -r requirements.txt`
   - After dealing with the dependencies, put the document into the root directory as `input.docx`

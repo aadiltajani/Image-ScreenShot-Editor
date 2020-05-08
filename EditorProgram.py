@@ -27,7 +27,7 @@ if input_type == 'doc':
         f = open("image1.jpeg", 'wb')
         f.write(curr_image)
         z.extract(image, 'Images')
-    listOfFiles = os.listdir('Images{0}word{0}media'.format('\\'))
+    listOfFiles = os.listdir('Images{0}word{0}media'.format(sep))
 
 else:
     listOfFiles = os.listdir('Images')

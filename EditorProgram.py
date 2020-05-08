@@ -53,7 +53,7 @@ with open('file_names.txt', 'w') as names:
 
 ######### SET PATH BELOW FOR WINDOWS ONLY
 
-# pytesseract.pytesseract.tesseract_cmd = '<PATH to \\Tesseract-OCR\\tesseract.exe   generally in C:\\ProgramFiles(
+# pytesseract.pytesseract.tesseract_cmd = r'<PATH to \Tesseract-OCR\tesseract.exe   generally in C:\\ProgramFiles(
 # x86) or where you install binary file>' 
 
 

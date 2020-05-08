@@ -6,11 +6,11 @@ A program which lets you edit image contents
 Remember- It uses OCR so it might give unexpected symbols when it doesn't recognises the text
 
 # How To Run:
-
-  - After dealing with the dependencies, put the images you want to edit or convert in the Images folder.
-  - Keep multiple Images in the folder only if you want to make same changes to all of them.
-  - Run the program and it will ask you if you want to make edits.
-  - Finally, the edited content will be available in the fle "Changed_files.doc".
+  - `pip install -r requirements.txt`
+  - After dealing with the dependencies, put the document into the root directory as `input.docx`
+  - `python EditorProgram.py`
+  - This will ask you if you want to make edits.
+  - Finally, the edited content will be available in the fle `Changed_files.doc`.
   - Change the formatting as you like :)
 
 
